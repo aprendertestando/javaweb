@@ -1,10 +1,17 @@
-background {
-    background: #FFF url(http://ap.imagensbrasil.org/images/site-background.jpg);         
+body {
+    background-image:url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg);         
+    background-attachment: scroll;
     margin:0;
-    padding:0
+    padding:0;
+    background-repeat:no-repeat;
+    
+    background-size: 100%;
+    background-color: black;
+    display: block
+        
 }
 
 div {
-    
-    
+        color: #fff;
+	font-family: "Helvetica Neue", sans-serif
 }

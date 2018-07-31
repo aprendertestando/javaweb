@@ -3,8 +3,7 @@ body {
     background-attachment: scroll;
     margin:0;
     padding:0;
-    background-repeat:no-repeat;
-    
+    background-repeat:no-repeat;    
     background-size: 100%;
     background-color: black;
     display: block
@@ -14,4 +13,15 @@ body {
 div {
         color: #fff;
 	font-family: "Helvetica Neue", sans-serif
+}
+
+
+label {
+    
+    margin: 5px 0;
+    display: block;
+    text-transform: uppercase;
+    color: white
+        
+    
 }

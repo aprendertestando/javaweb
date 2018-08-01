@@ -18,7 +18,9 @@ body {
 
 #formlogin {
         position: absolute;
-        bottom: 25px
+        top: 80px;
+        width: 20%;
+        border: 2px solid #fff
 }
 div {
         color: #fff;
@@ -43,6 +45,7 @@ footer {
     width:100%;
     bottom:0;
     text-align: center;
+   
     font-size: 25px
         
 }

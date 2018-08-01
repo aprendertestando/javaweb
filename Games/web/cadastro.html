@@ -12,7 +12,8 @@ and open the template in the editor.
     </head>
     <body>
         <div>Cadastre-se abaixo:</div>
-        <div><form action="cadastro">
+        <div>
+            <form action="cadastro" method="POST">
                 <ul>
                     <li>
                         <label for="nome">Nome:</label>
@@ -32,13 +33,17 @@ and open the template in the editor.
                     </li>
                     <li>
                         <label for="senha">Senha:</label>
-                        <input type="password" name="senha:" value="" /><br />
+                        <input type="password" name="senha" value="" /><br />
                     </li>
                     <li>
                         <label for="confirmasenha">Confirmar Senha:</label>
-                        <input type="password" name="confirmasenha:" value="" /><br />
+                        <input type="password" name="confirmasenha" value="" /><br />
                     </li>    
+                    <li>
+                        <input type="submit" value="OK" />
+                    </li>
                 </ul>
-            </form></div>
+            </form>
+        </div>
     </body>
 </html>

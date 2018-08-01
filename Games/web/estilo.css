@@ -8,7 +8,9 @@ body {
     background-repeat:no-repeat;    
     background-size: 100%;
     background-color: black;
-    display: block
+    display: block;
+    font-family: "Helvetica Neue", sans-serif;
+    
         
         
 }
@@ -24,7 +26,16 @@ label {
     margin: 5px 0;
     display: block;
     text-transform: uppercase;
-    color: white
-        
+    color: white 
+    
+}
+
+footer {
+    height: 100px;
+    background-color: #2f2f2f;
+    position: absolute;
+    padding:35px 0 10px 0;
+    width:100%;
+    bottom:0
     
 }

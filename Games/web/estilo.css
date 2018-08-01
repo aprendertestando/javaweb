@@ -54,6 +54,8 @@ footer {
     float: right;
     position: relative;
     top:30px
+    
+        
         
 }
 
@@ -62,9 +64,19 @@ footer {
     margin: 0
 }
 
-#banner nav ul li{
+#banner nav ul li {
     
     display: inline-block;
-    width: 100px
+    width: 100px    
         
+}
+
+#banner nav ul li a {
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Helvetica neue", sans-serif
+        
+    
 }

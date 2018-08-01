@@ -43,3 +43,28 @@ footer {
         
 }
 
+#banner h1 {
+    
+    float:left;
+    margin: 0
+}
+
+#banner nav {
+    
+    float: right;
+    position: relative;
+    top:30px
+        
+}
+
+#banner ul {
+    
+    margin: 0
+}
+
+#banner nav ul li{
+    
+    display: inline-block;
+    width: 100px
+        
+}

@@ -20,8 +20,9 @@ body {
         position: absolute;
         top: 80px;
         width: 20%;
-        border: 2px solid #fff
+        border: 2px solid transparent
 }
+
 div {
         color: #fff;
 	font-family: "Helvetica Neue", sans-serif
